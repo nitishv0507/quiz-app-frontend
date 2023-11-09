@@ -1,0 +1,106 @@
+/* question heading */
+.title {
+    text-align: center;
+    text-transform: capitalize;
+    color:#E55604;
+    font-size: 3.5vw;
+}
+
+/* question and options */
+
+.ques {
+    margin-top: 4vw;
+}
+
+.ques-title {
+    border: 2px solid #D0D4CA;
+    border-radius: 20px;
+    padding: 1.5vw;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+.option {
+    text-align: left;
+    display: block;
+    width: 80%;
+    height: 3vw;
+    margin: 2vw;
+    padding-left: 0.7vw;
+    border-radius: 0.7vw;
+    font-size: 1.3vw;
+    background-color: #fff;
+    cursor: pointer;
+    transition:background-color 0.3s ease;
+}
+
+.option:hover {
+    background-color:#f0d4b0;
+}
+
+.option.clicked {
+    background-color: #F0B86E;
+}
+
+.option.red {
+    background-color: #F31559;
+    color: black;
+}
+
+.option.green {
+    background-color: green;
+    background-color: #6BCB77;
+    color: black;
+}
+
+.options.disabled .option {
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+/* timer */
+.countDown {
+    text-align: end;
+    font-size: 1.5vw;
+    /* transform: translate(-20%, +170%); */
+}
+
+/* submit btn */
+.submit-quiz {
+    width: 85%;
+}
+
+.submit {
+    width: 35%;
+    border-radius: 0.5vw;
+    margin: 2vw 0;
+}
+
+.result {
+    border: 4px solid #EC53B0;
+    text-align: center;
+}
+
+.reslt {
+    font-size: 1.3vw;
+    font-weight: 600;
+    padding-left: .3vw;
+}
+
+/* explaination box */
+.explain {
+    border: 3px solid #96B6C5;
+    /* width: 50%; */
+    padding: 2vw; 
+    /* letter-spacing: 0.5px; */
+    font-size: 1.4vw; 
+    background-color: #96B6C5;
+}
+
+.submit.disabled {
+    /* cursor: not-allowed; */
+    background-color: #ddd;
+    color: #aaa;
+    pointer-events: none;
+}
+

@@ -1,0 +1,49 @@
+header {
+    background-color: #007BFF;
+    color: #F7EFE5;
+    text-align: center;
+    padding: 20px;
+}
+
+/* .container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+} */
+
+h1 {
+    font-size: 28px;
+}
+
+.h2 {
+    font-size: 1.7vw;
+    font-weight: 600px;
+    color: #E13F49;
+    padding-left: 2px;
+    padding-bottom: 5px;
+    margin-top: 25px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.members {
+    padding-top: 1vw;
+    padding-left: 1vw;
+    font-weight: 600;
+    font-size: 1.2
+}
+
+.ourValues {
+    padding-left: 1vw;
+    font-size: 1.2vw;
+}
+
+.content {
+    font-size: 1.3vw;
+}
+
+.quote {
+    font-size: 1.2vw;
+}
